@@ -5,6 +5,6 @@ local map = vim.api.nvim_set_keymap
 map('i', 'jk', '<Esc>', {})
 
 -- Toggle more plugins
-map('n', 'l', [[:IndentLinesToggle]], {})
+-- map('n', 'l', [[:IndentLinesToggle]], {})
 map('n', 't', [[:TagbarToggle]], {})
 map('n', 'ff', [[:Telescope find_files]], {})
